@@ -42,3 +42,23 @@
   display: block;
   line-height: initial;
 }
+
+
+
+
+.shield-trophy[href="/tournament/shields"] 
+{
+    text-indent: -9999px;
+  line-height: 0;
+}
+
+
+.shield-trophy[href="/tournament/shields"]:after { 
+font-family:FontAwesome !important;
+    content: "\f245" !important;
+   margin-top:14px;
+    margin-left:7px;
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+}
