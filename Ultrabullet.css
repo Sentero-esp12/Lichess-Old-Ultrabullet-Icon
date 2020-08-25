@@ -9,38 +9,38 @@
 
 
 [data-icon="{"]:before {
-    font-family:FontAwesome;
-    content: "\f245" !important;
-    margin-left:4px;
-    padding-right:0px;
-   /*display:none;*/
+font-family:FontAwesome;
+content: "\f245" !important;
+margin-left:6px;
+padding-right:0px;
+/*display:none;*/
 }
 
 
 .side.sub-ratings a[data-icon="{"]:before {
-    margin-left:6px;
-    padding-right:6px; 
+margin-left:6px;
+padding-right:6px;
 }
 
 
 .tv-channel.ultraBullet span[data-icon="{"]:before {
-    margin-left:21px;
+margin-left:21px;
 }
 
 
 .tournament-shields__item a[href="/tournament/shields/ultraBullet"] .shield-trophy {
-    text-indent: -9999px;
-  line-height: 0;
+text-indent: -9999px;
+line-height: 0;
 }
 
 .tournament-shields__item a[href="/tournament/shields/ultraBullet"] .shield-trophy:after {
-  font-family:FontAwesome !important;
-    content: "\f245" !important;
-   margin-top:18px;
-    margin-left:7px;
-  text-indent: 0;
-  display: block;
-  line-height: initial;
+font-family:FontAwesome !important;
+content: "\f245" !important;
+margin-top:18px;
+margin-left:7px;
+text-indent: 0;
+display: block;
+line-height: initial;
 }
 
 
@@ -48,37 +48,36 @@
 
 .shield-trophy[href="/tournament/shields"][title="UltraBullet Shield"]
 {
-    text-indent: -9999px;
-  line-height: 0;
+text-indent: -9999px;
+line-height: 0;
 }
 
 
-.shield-trophy[href="/tournament/shields"][title="UltraBullet Shield"]:after { 
+.shield-trophy[href="/tournament/shields"][title="UltraBullet Shield"]:after {
 font-family:FontAwesome !important;
-    content: "\f245" !important;
-   margin-top:14px;
-    margin-left:7px;
-  text-indent: 0;
-  display: block;
-  line-height: initial;
+content: "\f245" !important;
+margin-top:14px;
+margin-left:7px;
+text-indent: 0;
+display: block;
+line-height: initial;
 }
 
 
 
 
-.tour-speed-UltraBullet div.tour__main__header a.shield-trophy[href="/tournament/shields"] 
+.tour-speed-UltraBullet div.tour__main__header a.shield-trophy[href="/tournament/shields"]
 {
-    text-indent: -9999px;
-  line-height: 0;
+text-indent: -9999px;
+line-height: 0;
 }
 
-.tour-speed-UltraBullet div.tour__main__header a.shield-trophy[href="/tournament/shields"]:after { 
+.tour-speed-UltraBullet div.tour__main__header a.shield-trophy[href="/tournament/shields"]:after {
 font-family:FontAwesome !important;
-    content: "\f245" !important;
-   margin-top: 20px;
-    margin-left:9px;
-  text-indent: 0;
-  display: block;
-  line-height: initial;
+content: "\f245" !important;
+margin-top: 20px;
+margin-left:9px;
+text-indent: 0;
+display: block;
+line-height: initial;
 }
-
