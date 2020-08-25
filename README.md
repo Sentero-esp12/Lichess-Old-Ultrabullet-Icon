@@ -6,5 +6,5 @@ Replaces the new ultrabullet or bullet icons with the cursor
 - Go to Lichess, click the Stylus's icon (right top) and click "Create a new style for Lichess.org";
 - Copy paste the content of the Ultrabullet.css or Bullet.css file into the Stylus's window. You can do it twice for ultrabullet and for bullet if you want to replace both.
 
-Thanks CalbernandHowbe for improving and fixing the Bullet and Hyperbullet styles.
+> Thanks CalbernandHowbe for improving and fixing the Bullet and Hyperbullet styles.
 
