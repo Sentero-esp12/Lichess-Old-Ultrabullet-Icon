@@ -1,0 +1,51 @@
+@font-face
+  {
+    font-family: 'FontAwesome';
+    src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+[data-icon="T"]:before {
+    font-family:FontAwesome;
+    content: "\f0e7" !important;
+    margin-left:4px;
+    padding-right:0px;
+   /*display:none;*/
+}
+
+
+.side.sub-ratings a[data-icon="T"]:before {
+    margin-left:6px;
+    padding-right:6px; 
+}
+
+
+.tv-channel.ultraBullet span[data-icon="T"]:before {
+    margin-left:21px;
+}
+
+
+.tournament-shields__item a[href="/tournament/shields/bullet"] .shield-trophy,
+.tournament-shields__item a[href="/tournament/shields/hyperBullet"] .shield-trophy
+
+{
+    text-indent: -9999px;
+  line-height: 0;
+}
+
+.tournament-shields__item a[href="/tournament/shields/bullet"] .shield-trophy:after,
+.tournament-shields__item a[href="/tournament/shields/hyperBullet"] .shield-trophy:after
+{
+  font-family:FontAwesome !important;
+    content: "\f0e7" !important;
+   margin-top:18px;
+    margin-left:1px;
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+}
+
+
