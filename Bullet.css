@@ -7,25 +7,24 @@
     font-style: normal;
   }
 
-
 [data-icon="T"]:before {
-    font-family:FontAwesome;
-    content: "\f0e7" !important;
-    margin-left:8px;
-    padding-right:0px;
-   /*display:none;*/
+font-family:FontAwesome;
+content: "\f0e7" !important;
+margin-left:6px;
+padding-right:0px;
+/*display:none;*/
 }
 
 
 .side.sub-ratings a[data-icon="T"]:before {
-    margin-left:9px;
-    padding-right:11px; 
+margin-left:9px;
+padding-right:11px;
 }
 
 
 .tv-channel.bullet span[data-icon="T"]:before {
-    margin-left:17px;
-    margin-right: 10px;
+margin-left:17px;
+margin-right: 10px;
 }
 
 
@@ -33,20 +32,91 @@
 .tournament-shields__item a[href="/tournament/shields/hyperBullet"] .shield-trophy
 
 {
-    text-indent: -9999px;
-  line-height: 0;
+text-indent: -9999px;
+line-height: 0;
 }
 
 .tournament-shields__item a[href="/tournament/shields/bullet"] .shield-trophy:after,
 .tournament-shields__item a[href="/tournament/shields/hyperBullet"] .shield-trophy:after
 {
-  font-family:FontAwesome !important;
-    content: "\f0e7" !important;
-   margin-top:18px;
-    margin-left:1px;
-  text-indent: 0;
-  display: block;
-  line-height: initial;
+font-family:FontAwesome !important;
+content: "\f0e7" !important;
+margin-top:18px;
+margin-left:1px;
+text-indent: 0;
+display: block;
+line-height: initial;
 }
 
 
+.shield-trophy[href="/tournament/shields"][title="Bullet Shield"]
+{
+text-indent: -9999px;
+line-height: 0;
+}
+
+
+.shield-trophy[href="/tournament/shields"][title="Bullet Shield"]:after {
+font-family:FontAwesome !important;
+content: "\f0e7" !important;
+margin-top:15px;
+margin-left:1px;
+text-indent: 0;
+display: block;
+line-height: initial;
+}
+
+
+
+
+.tour-speed-Bullet div.tour__main__header a.shield-trophy[href="/tournament/shields"]
+{
+text-indent: -9999px;
+line-height: 0;
+}
+
+.tour-speed-Bullet div.tour__main__header a.shield-trophy[href="/tournament/shields"]:after {
+font-family:FontAwesome !important;
+content: "\f0e7" !important;
+margin-top: 18px;
+margin-left:5px;
+text-indent: 0;
+display: block;
+line-height: initial;
+}
+
+.shield-trophy[href="/tournament/shields"][title="HyperBullet Shield"]
+{
+text-indent: -9999px;
+line-height: 0;
+}
+
+
+.shield-trophy[href="/tournament/shields"][title="HyperBullet Shield"]:after {
+font-family:FontAwesome !important;
+content: "\f0e7" !important;
+margin-top:15px;
+margin-left:2px;
+text-indent: 0;
+display: block;
+line-height: initial;
+}
+
+
+
+
+.tour-speed-HyperBullet div.tour__main__header a.shield-trophy[href="/tournament/shields"]
+{
+text-indent: -9999px;
+line-height: 0;
+}
+
+.tour-speed-HyperBullet div.tour__main__header a.shield-trophy[href="/tournament/shields"]:after {
+font-family:FontAwesome !important;
+content: "\f0e7" !important;
+margin-top: 18px;
+margin-left:5px;
+text-indent: 0;
+display: block;
+line-height: initial;
+}
