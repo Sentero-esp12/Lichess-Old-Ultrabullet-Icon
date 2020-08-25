@@ -11,7 +11,7 @@
 [data-icon="T"]:before {
     font-family:FontAwesome;
     content: "\f0e7" !important;
-    margin-left:4px;
+    margin-left:8px;
     padding-right:0px;
    /*display:none;*/
 }
